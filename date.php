@@ -39,16 +39,4 @@
 	echo date("m/d/Y h:i:sa",$timestamp5);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
- ?>
+?>
