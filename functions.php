@@ -35,7 +35,7 @@
 
 	# 无参数 有返回值
 	function buyDrink(){
-		return "饭后的饮料!";
+		return "饭后的甜点!";
 	}
 	// echo buyDrink();
 
