@@ -1,4 +1,4 @@
-# lesson-6 
-### 字符串函数的常用方法
-### 数组函数的常用方法
+# lesson-6 函数常用方法
+### string_functions
+### array_functions
 
