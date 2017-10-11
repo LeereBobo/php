@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        html,body {
+            width:100%;
+            height:100%;
+        }
+
+        .wrap {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            color: white;
+            display: flex;
+        }
+
+        .videos {
+            width:100%;
+            height:100%;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+
+        .mask {
+            width: 100%;
+            height: 100%;
+            background: #225470;
+            opacity: 0.85;
+            position: absolute;
+            top:0;
+            left:0;
+            text-align: center;
+            display: table;
+        }
+        .texts {
+            max-width: 960px;
+            margin:auto;
+
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px;
+
+        }
+
+        p {
+            font-size: 1.5rem;
+            display: block;
+            padding-bottom: 3rem;
+            padding-top: 2rem;
+        }
+
+        button {
+            background: #34b3a0;
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            border:none;
+            outline: none;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="videos">
+            <video src="Typing_on_Keyboard_2821_Videvo.mov" autoplay loop
+                   width="100%" height="100%"></video>
+        </div>
+
+        <div class="mask">
+            <div class="texts">
+                <h1>Welcome Everyone</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</p>
+                <button>Find Out More</button>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
