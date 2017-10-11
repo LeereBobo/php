@@ -1,69 +1,4 @@
 <?php 
-	# loops: 循环 - 让项目制作的更高效
-	# 根据某个条件,重复执行某段代码
-	
-	/*
-		-For
-		-While 
-		-Do...While
-		-Foreach
-	*/
-
-	
-	# For 循环
-	// @params - init,condition,inc
-	/*
-		for ($i=0; $i < 10; $i++) { 
-			echo ($i+1)."<br>";
-		}
-	*/
-
-	
-	# While 循环
-	// @params - condition
-	/*
-		$i = 0;
-		while ($i < 10) {
-			echo $i."<br>";
-			$i++;
-		}
-	*/
-
-	
-	# do...while
-	// @params - condition
-	/*
-		$i = 0;
-		do{
-			echo $i."<br>";
-			$i++;
-		}while ($i<10);
-	*/
-
-
-	# foreach 循环 下标数组
-	/*
-		$people = array("Henry","Bucky","Emily");
-		foreach ($people as $person) {
-			echo $person;
-			echo "<br>";
-		}
-	*/
-
-	
-	# foreach 循环 关联数组
-	/*
-		$people = array(
-			"Henry" => "Henry@gmail.com",
-			"Bucky" => "Bucky@gmail.com",
-			"Emily" => "Emily@gmail.com"
-		);
-	
-		foreach ($people as $person => $email) {
-			echo $person.":".$email;
-			echo "<br>";
-		}
-	*/
 
 	/*
 		打印1~100之间7的倍数
@@ -116,10 +51,15 @@
 		
 		for ($j=1; $j <= $i; $j++) { 
 			
-			echo $i."X".$j."=".$i * $j;
-			echo "<br>";
+			echo $i." * ".$j." = ".$i * $j;
 
-		}		
+			if ($i*$j<10) {
+				echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+			}else{
+				echo "&nbsp;&nbsp;&nbsp;";
+			}
+		}
+		echo "<br>";		
 	}*/
 
 	echo"<table border='2' width='400'>";  
