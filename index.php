@@ -11,10 +11,10 @@
 		<h1 class="text-muted">服务器配置信息</h1>
 		<?php if($server): ?>
 			<ul class="list-group">
-				<?php foreach ($server as $key => $vaulue): ?>
+				<?php foreach ($server as $key => $value): ?>
                     <li class="list-group-item">
                     	<strong><?php echo $key; ?>: </strong>
-                    	<?php echo $vaulue; ?>
+                    	<?php echo $value; ?>
                     </li>
 				<?php endforeach; ?>
 			</ul>
@@ -23,10 +23,10 @@
 		<h1>客户端配置信息</h1>
 		<?php if($client): ?>
 			<ul class="list-group">
-				<?php foreach($client as $key => $vaulue): ?>
+				<?php foreach($client as $key => $value): ?>
 				<li class="list-group-item">
 					<strong><?php echo $key; ?>: </strong>
-					<?php echo $vaulue; ?>
+					<?php echo $value; ?>
 				</li>
 			    <?php endforeach; ?>
 			</ul>
