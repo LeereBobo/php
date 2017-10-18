@@ -36,25 +36,25 @@
 		// console.log(xhr.readyState);//1
 
 		// 3.执行处理数据的方法
-		/*
-		xhr.onload = function(){
+		
+		/*xhr.onload = function(){
 			//console.log(this.responseText);
 			//console.log(xhr.readyState);//4
 			if (this.status == 200) {
 				console.log(this.responseText);
 			}
-		}
-		*/
+		}*/
+		
 
 		xhr.onprogress = function(){
 			console.log("加载页面"+this.readyState);
-		}
+		}	
 		
 		xhr.onreadystatechange = function(){
-			//console.log(this.responseText);
-			//console.log(xhr.readyState);//2 3 4
+			// console.log(this.responseText);
+			// console.log(xhr.readyState);//2 3 4
 			if (this.readyState == 4 && this.status == 200) {
-				//console.log(this.responseText);
+				// console.log(this.responseText);
 				document.getElementById("text").innerHTML = this.responseText;
 			}
 		}
