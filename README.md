@@ -4,7 +4,7 @@
 ### Ajax 2 - 请求JSON数据
 ### Ajax 3 请求真实接口API
 ### Ajax 4 - 请求PHP接口
-####1.button：通过ajax正常请求数据。
+#### 1.button：通过ajax正常请求数据。
 
 		2.GET FORM：将form中的数据提交到PHP文件中。
 
