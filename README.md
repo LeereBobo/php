@@ -4,7 +4,7 @@
 ### Ajax 2 - 请求JSON数据
 ### Ajax 3 请求真实接口API
 ### Ajax 4 - 请求PHP接口
-                1.button：通过ajax正常请求数据。
+             1.button：通过ajax正常请求数据。
 
 		2.GET FORM：将form中的数据提交到PHP文件中。
 
@@ -23,5 +23,4 @@
 
 		5.AJAX POST FORM：xhr.open("POST","process.php",true);
 		                  post请求一定要写请求头
-
 ### Ajax 5 - 请求数据库数据
